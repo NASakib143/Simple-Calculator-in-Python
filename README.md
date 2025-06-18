@@ -1,61 +1,32 @@
-🧮 Simple Calculator in Python
-This is a beginner-friendly console-based calculator written in Python. It allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division.
+## 🧮 Simple Calculator in Python
 
-✅ Features
-User-friendly interface
+This is a beginner-friendly **console-based calculator** written in Python. It allows users to perform basic arithmetic operations like **addition, subtraction, multiplication**, and **division**.
 
-Handles division by zero
+### ✅ Features
 
-Supports floating-point numbers
+- User-friendly interface
+    
+- Handles division by zero
+    
+- Supports floating-point numbers
+    
+- Uses `if`, `elif`, and `else` statements for logic
+    
 
-Uses if, elif, and else statements for logic
+### 📸 Demo  
+<a href="https://ibb.co/Tx1618Vn"><img src="https://i.ibb.co/B5GbGZX7/image.png" alt="image" border="0"></a>
 
-📸 Demo
-bash
-Copy
-Edit
-Welcome to the Calculator Program
-This program performs basic arithmetic operations: sum, subtract, multiply, and divide.
+### **📚 Topics Covered**
 
-Please select an operation:
-1. Sum
-2. Subtract
-3. Multiply
-4. Divide
+- Input and output in Python
+- Arithmetic operations
+- Conditional statements (if, elif, else)
+- Basic error handling (division by zero)
 
-Enter your choice (1-4): 1
-Enter the first number: 10
-Enter the second number: 20
-The result of addition is: 30.0
-🛠️ How to Run
-Make sure you have Python installed.
-You can download it from: python.org
+### 📄 **License**
 
-Clone this repository:
+This project is open source and available under the MIT License.
 
-bash
-Copy
-Edit
-git clone https://github.com/NASakib143/Make-a-Simple-Calculator---Python.git
-cd Make-a-Simple-Calculator---Python
-Run the script:
+## 👨‍💻 Author
 
-bash
-Copy
-Edit
-python calculator.py
-📂 File Structure
-css
-Copy
-Edit
-Make-a-Simple-Calculator---Python/
-├── calculator.py
-└── README.md
-📚 Learning Topics
-Input/output in Python
-
-If-elif-else conditions
-
-Arithmetic operations
-
-Error handling (division by zero)
+Made with ❤️ by [NASakib143](https://github.com/NASakib143)
