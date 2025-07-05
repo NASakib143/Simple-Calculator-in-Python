@@ -8,24 +8,24 @@ print("""1. Sum
 
 choice = input("Enter your choice (1-4): ")
 
-A = float(input("Enter the first number: "))
+x = float(input("Enter the first number: "))
 
-B = float(input("Enter the second number: "))
+y = float(input("Enter the second number: "))
 
-if choice == "1":
-    result = A + B
+if operation == "1":
+    result = x + y
     print("The result of sum is: " + str(result))
-elif choice == "2":
-    result = A - B
-    print("The result of subtraction is:" + str(result))
-elif choice == "3":
-    result = A * B
-    print("The result of Multiply is: " + str(result))
-elif choice == "4":
-    if B == 0:
+elif operation == "2":
+    result = x - y
+    print("The result of subtraction is: " + str(result))
+elif operation == "3":
+    result = x * y
+    print("The result of multiplication is: " + str(result))
+elif operation == "4":
+    if y == 0:
         print("Error: Division by zero is not allowed.")
     else:
-        result = A / B
-        print("The result of Divide is: " + str(result))
+        result = x / y
+        print("The result of division is: " + str(result))
 else:
     print("Invalid choice. Please select a valid operation (1-4).")
